@@ -45,5 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{sysconfig}/gerty
 
 %changelog
+* Fri May 20 2016 Daniel Menet <daniel.menet@swisstxt.ch> - 1-2
+Binary update
 * Thu Jan 12 2015 Daniel Menet <daniel.menet@swisstxt.ch> - 1-1
 Initial creation
