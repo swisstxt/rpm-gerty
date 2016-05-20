@@ -1,11 +1,11 @@
 [Unit]
-Description=netmgmt
-After=netmgmt.target
+Description=gerty
+After=gerty.target
 
 [Service]
-EnvironmentFile=-/etc/sysconfig/netmgmt
-WorkingDirectory=/opt/netmgmt
-ExecStart=/opt/netmgmt/netmgmt
+EnvironmentFile=-/etc/sysconfig/gerty
+WorkingDirectory=/opt/gerty
+ExecStart=/opt/gerty/gerty
 Restart=on-failure
 StandardError=null
 StandardOutput=null
